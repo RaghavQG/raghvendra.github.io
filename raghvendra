@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Researcher</title>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Postdoctoral Fellow in Semiclassical and Quantum Gravity</p>
+    </header>
+
+    <section id="research">
+        <h2>Research</h2>
+        <p>Brief description of your research in quantum and semiclassical aspects of gravity.</p>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li><a href="link-to-paper-1">Paper 1</a></li>
+            <li><a href="link-to-paper-2">Paper 2</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Contact: <a href="mailto:youremail@domain.com">youremail@domain.com</a></p>
+    </footer>
+</body>
+</html>
