@@ -3,29 +3,260 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Researcher</title>
+    <title>Raghvendra Singh | Ariel University</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0f7fa, #fdfbfb);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #00539C;
+            color: white;
+            padding: 40px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        .header-text h1, .header-text h3 { margin: 5px 0; }
+        nav {
+            background-color: #e2e8f0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #00539C;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            border-bottom: 1px solid #ddd;
+            background-color: rgba(255,255,255,0.8);
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+        }
+        footer {
+            background-color: #00539C;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.2em;
+        }
+        .thesis-title {
+            font-style: italic;
+            color: #0077be;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Postdoctoral Fellow in Semiclassical and Quantum Gravity</p>
-    </header>
 
-    <section id="research">
-        <h2>Research</h2>
-        <p>Brief description of your research in quantum and semiclassical aspects of gravity.</p>
-    </section>
+<header>
+    <img src="IMG20191026014115.jpg" alt="Raghvendra Singh" class="profile-img">
+    <div class="header-text">
+        <h1>Raghvendra Singh</h1>
+        <h3>Postdoctoral Fellow, Ariel University, Israel</h3>
+    </div>
+</header>
 
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-            <li><a href="link-to-paper-1">Paper 1</a></li>
-            <li><a href="link-to-paper-2">Paper 2</a></li>
-        </ul>
-    </section>
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#academics">Academics</a>
+    <a href="#publications">Publications</a>
+    <a href="#talks">Talks & Conferences</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <footer>
-        <p>Contact: <a href="mailto:youremail@domain.com">youremail@domain.com</a></p>
-    </footer>
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a Postdoctoral Fellow at Ariel University, Israel, working with Prof. Sergey Bondarenko. My research focuses on the interface between gravity and quantum theory — particularly in understanding how semiclassical and quantum features of spacetime manifest at different physical regimes.
+  </p>
+  <p>
+    At heart I am driven by foundational questions. What does it mean for spacetime to acquire microstructure at the Planck scale? Can semiclassical consistency already hint at the rules of full quantum gravity? These puzzles guide my day‑to‑day calculations — whether I am tracking how extrinsic curvature corrects horizon entropy via a covariant Wick rotation, or showing that tidal components of the Riemann tensor set universal bounds on gravitational decoherence.
+  </p>
+  <p>
+    Beyond the equations I value open collaboration, clear communication, and the creative playfulness that theoretical physics affords. Whether in seminars, conferences, or impromptu whiteboard sessions, I see research as a collective endeavour: refining our questions is often as illuminating as chasing the answers.
+  </p>
+</section>
+
+<!-- ===== Research Section ===== -->
+<section id="research" class="mx-auto max-w-5xl px-6 py-16 lg:px-8">
+  <!-- Title -->
+  <h2 class="text-4xl font-extrabold tracking-tight sm:text-5xl mb-12">
+      Research
+  </h2>
+
+  <!-- 1. Broad Research Areas -->
+  <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-4 mb-16">
+    <article class="rounded-lg bg-gradient-to-br from-indigo-600/80 to-purple-600/80 p-6 text-white shadow-lg">
+      <h3 class="mb-2 text-lg font-semibold">Quantum &amp; Semiclassical Gravity</h3>
+      <p class="text-sm leading-relaxed">Planck‑scale quantum effects and their imprint on classically curved space‑time.</p>
+    </article>
+    <article class="rounded-lg bg-gradient-to-br from-emerald-600/80 to-teal-600/80 p-6 text-white shadow-lg">
+      <h3 class="mb-2 text-lg font-semibold">Black‑Hole Physics</h3>
+      <p class="text-sm leading-relaxed">Interior structure, horizon thermodynamics and information retention.</p>
+    </article>
+    <article class="rounded-lg bg-gradient-to-br from-amber-600/80 to-yellow-500/80 p-6 text-white shadow-lg">
+      <h3 class="mb-2 text-lg font-semibold">Quantum Geometry</h3>
+      <p class="text-sm leading-relaxed">Covariant uncertainty principles and Wick‑rotated metric phases.</p>
+    </article>
+    <article class="rounded-lg bg-gradient-to-br from-rose-600/80 to-pink-600/80 p-6 text-white shadow-lg">
+      <h3 class="mb-2 text-lg font-semibold">Early‑Universe Cosmology</h3>
+      <p class="text-sm leading-relaxed">Geometric mechanisms capable of seeding, driving and ending cosmic inflation.</p>
+    </article>
+  </div>
+
+  <!-- 2. Core Questions & Long‑Term Vision -->
+  <div class="prose prose-lg lg:prose-xl mb-16">
+    <h3>Core Research Questions&nbsp;&amp;&nbsp;Long‑Term Goals</h3>
+    <ul>
+      <li><strong>Can space‑time singularities be removed within a covariant semiclassical framework?</strong></li>
+      <li><strong>What are the truly relativistic limits of quantum uncertainty?</strong></li>
+      <li><strong>How does Wick rotation encode thermodynamics and quantum phases of gravity?</strong></li>
+      <li><strong>Does curvature itself decohere quantum matter?</strong></li>
+    </ul>
+    <p class="mt-6 italic">
+      <span class="font-semibold">Vision&nbsp;⟶</span>
+      A covariant, experimentally anchored picture of quantum space‑time where horizons,
+      curvature and quantum information are treated on equal footing — linking black‑hole
+      interiors, Planck‑scale physics and the dynamics of the early universe.
+    </p>
+  </div>
+
+  <!-- 3. Current Work & Selected Outputs -->
+  <h3 class="text-2xl font-semibold mb-8">Current Work &amp; Selected Outputs</h3>
+  <div class="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+    <a href="https://doi.org/10.1103/PhysRevD.105.L101501" class="block break-inside-avoid rounded-xl border border-gray-200 bg-white p-5 shadow-md transition hover:shadow-lg">
+      <h4 class="mb-1 font-semibold">Relativistic GUP</h4>
+      <p class="mb-3 text-sm leading-relaxed">
+        First coordinate‑free formulation of the Generalised Uncertainty Principle, tightening phenomenological bounds.
+      </p>
+      <span class="inline-flex items-center text-xs font-medium text-indigo-600">Phys. Rev. D 105 (2022)</span>
+    </a>
+    <a href="https://arxiv.org/abs/2010.01822" class="block break-inside-avoid rounded-xl border border-gray-200 bg-white p-5 shadow-md transition hover:shadow-lg">
+      <h4 class="mb-1 font-semibold">Covariant&nbsp;Wick Rotation</h4>
+      <p class="mb-3 text-sm leading-relaxed">
+        Shows how Euclidean “caps” on Lorentzian manifolds encode horizon entropy and path‑integral phases.
+      </p>
+      <span class="inline-flex items-center text-xs font-medium text-indigo-600">EPJ C 83 (2023)</span>
+    </a>
+    <a href="https://arxiv.org/abs/2302.09038" class="block break-inside-avoid rounded-xl border border-gray-200 bg-white p-5 shadow-md transition hover:shadow-lg">
+      <h4 class="mb-1 font-semibold">Quantum Decoherence in Curved Space‑Time</h4>
+      <p class="mb-3 text-sm leading-relaxed">
+        Derives curvature‑dependent decoherence times, suggesting satellite‑based experimental tests.
+      </p>
+      <span class="inline-flex items-center text-xs font-medium text-indigo-600">arXiv 2302.09038</span>
+    </a>
+    <a href="https://arxiv.org/abs/2506.02944" class="block break-inside-avoid rounded-xl border border-gray-200 bg-white p-5 shadow-md transition hover:shadow-lg">
+      <h4 class="mb-1 font-semibold">Black‑Hole Interior Modelling</h4>
+      <p class="mb-3 text-sm leading-relaxed">
+        Two‑phase quasiparticle core that avoids the central singularity while respecting horizon thermodynamics.
+      </p>
+      <span class="inline-flex items-center text-xs font-medium text-indigo-600">arXiv 2506.02944</span>
+    </a>
+  </div>
+
+  <!-- 4. Ongoing Directions -->
+  <div class="prose prose-lg lg:prose-xl mt-16">
+    <h3>In Progress</h3>
+    <details class="group">
+      <summary class="cursor-pointer text-xl font-semibold">
+        Singularity‑Avoiding Black‑Hole Interiors
+        <span class="ml-2 inline-block rotate-0 transition group-open:rotate-90">▸</span>
+      </summary>
+      <p class="mt-3">
+        Extending the quasiparticle‑core model to include quantum back‑reaction from Hawking partners,
+        aiming for a horizon‑to‑center description embedded in effective field theory.
+      </p>
+    </details>
+    <details class="group">
+      <summary class="cursor-pointer text-xl font-semibold">
+        Geometric Models of Inflation
+        <span class="ml-2 inline-block rotate-0 transition group-open:rotate-90">▸</span>
+      </summary>
+      <p class="mt-3">
+        Using covariant Wick‑rotated metrics to construct “Euclidean bridge” geometries that interpolate
+        between pre‑inflationary and FRW epochs, offering naturally graceful exit conditions.
+      </p>
+    </details>
+  </div>
+</section>
+
+<section id="academics">
+    <h2>Academic Details</h2>
+    <ul>
+        <li><strong>PhD:</strong> IMSc Chennai<br>
+            <strong>Supervisor:</strong> Sujay K Ashok<br>
+            <strong>Co-supervisor:</strong> Dawood Kothawala (IIT Madras)<br>
+            <span class="thesis-title">Thesis: "The Role of Spacetime Curvature in Quantum Phenomena at Various Length Scales"</span>
+        </li>
+        <li><strong>MSc:</strong> IMSc Chennai<br>
+            <strong>Thesis Advisor:</strong> Alok Laddha (CMI)<br>
+            <span class="thesis-title">Thesis: "Hamiltonian Formulation of Gravity"</span>
+        </li>
+    </ul>
+    <p><a href="cv_raghvendra.pdf" download>Download my CV</a></p>
+</section>
+
+<section id="publications">
+    <h2>Selected Publications</h2>
+    <p>Explore my detailed publication list on <a href="https://scholar.google.com/citations?user=PI9CDmoAAAAJ&hl=en" target="_blank">Google Scholar</a>.</p>
+</section>
+
+<section id="talks">
+    <h2>Talks and Conferences</h2>
+
+    <p><strong>Conference:</strong> <a href="https://pirt.bmstu.ru/en/" target="_blank">PIRT 2025 — Physical Interpretations of Relativity Theory</a><br>
+    <strong>Date:</strong> July 7–10, 2025, Moscow, Russia<br>
+    <strong>Talk Title:</strong> <em>"Exploring Entropy in de Sitter Space Using the Covariant Euclidean Approach"</em></p>
+    <p>
+      <strong>Award:</strong> <span style="color:#d48806; font-weight:bold;">
+      🏅 Best Talk Award (PIRT 2025)</span><br>
+      <a href="Singh.pdf" target="_blank">📄 View Certificate</a>
+    </p>
+
+    <p><strong>Workshop:</strong> <a href="https://www.cpt.univ-mrs.fr/~cosmo/SW_2025/index.php" target="_blank">Hot Topics in Modern Cosmology — Spontaneous Workshop XVII</a><br>
+    <strong>Date:</strong> April 7–11, 2025<br>
+    <strong>Talk Title:</strong> <em>"Euclidean-Lorentzian Nexus: Geometry, Entropy, and Inflation"</em></p>
+
+    <p>More about talks, seminars, and conference presentations coming soon.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:raghvendra.imsc@gmail.com">raghvendra.imsc@gmail.com</a> | <a href="mailto:raghvendra@ariel.ac.il">raghvendra@ariel.ac.il</a></p>
+    <p class="social-icons">
+        <a href="https://scholar.google.com"><i class="fa-brands fa-google-scholar"></i></a>
+        <a href="https://github.com/RaghavQG"><i class="fa-brands fa-github"></i></a>
+        <a href="https://orcid.org"><i class="fa-brands fa-orcid"></i></a>
+    </p>
+</section>
+
+<footer>
+    &copy; 2025 Raghvendra Singh. All Rights Reserved.
+</footer>
+
 </body>
 </html>
